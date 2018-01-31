@@ -39,16 +39,9 @@ namespace NavigationStoryBoard
         {
             base.InitializeFirstChance();
 
-            //Mvx.RegisterSingleton<IDialogService>(() => new TouchDialogService());
-            //register the presentation hint to pop to root
-            //picked up in the third view model
-            //Mvx.RegisterSingleton<MvxPresentationHint>(() => new MvxPanelPopToRootPresentationHint(MvxPanelEnum.Center));
         }
 
-         protected override IMvxIosViewsContainer CreateIosViewsContainer()
-         {
-             return new StoryBoardContainer();
-         }
+
 
     }
 }

@@ -6,7 +6,8 @@ using UIKit;
 
 namespace NavigationStoryBoard.Views
 {
-   public partial class MainView : MvxViewController// BaseViewController<MainViewModel>
+    [MvxFromStoryboard("Main")]
+    public partial class MainView : MvxViewController// BaseViewController<MainViewModel>
     {
         public new MainViewModel ViewModel
         {
