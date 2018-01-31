@@ -6,7 +6,7 @@ using UIKit;
 
 namespace NavigationStoryBoard.Views
 {
-    [MvxFromStoryboard("NewServiceRequest")]
+    [MvxFromStoryboard("Main")]
     public partial class SettingsView : BaseViewController<SettingsViewModel>
     {
         public override void ViewDidLoad()

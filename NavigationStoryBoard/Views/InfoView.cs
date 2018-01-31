@@ -7,7 +7,7 @@ using UIKit;
 
 namespace NavigationStoryBoard.Views
 {
-    [MvxFromStoryboard("Main")]
+    [MvxFromStoryboard("NewServiceRequest")]
     public partial class InfoView : BaseViewController<InfoViewModel>
     {
         public InfoView(IntPtr handle) : base(handle)
