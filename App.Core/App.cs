@@ -12,6 +12,11 @@ namespace App.Core
             // Mvx IoC container for use when constructing objects through
             // the container
             CreatableTypes()
+                .EndingWith("Repository")
+                .AsInterfaces()
+                .RegisterAsLazySingleton();
+
+            CreatableTypes()
                 .EndingWith("Service")
                 .AsInterfaces()
                 .RegisterAsLazySingleton();
